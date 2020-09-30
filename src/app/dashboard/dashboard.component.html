@@ -1,0 +1,58 @@
+<div class="uk-container">
+    <br>
+    <br>
+    <button class="uk-button uk-button-default" (click)="listuser()">List Users</button>
+    <button class="uk-button uk-button-default" (click)="listworker()">List Worker</button>     
+    <br>
+    <br>
+    <div [style.display]="dataDisplay.tableUser">
+        <button class="uk-button uk-button-primary" style="float:right">Add User</button>
+        <h4>List of users</h4>
+        <table class="uk-table uk-table-divider">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table Data</td>
+                    <td>Table Data</td>
+                    <td>Table Data</td>
+                    <td>    <button class="uk-button uk-button-primary">Update</button>
+                        <button class="uk-button uk-button-danger">Delete</button>
+                    </td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+    <div [style.display]="dataDisplay.tableWorker">
+        <button class="uk-button uk-button-primary" style="float:right">Add Worker</button>
+        <h4>List of Worker</h4>
+        <table class="uk-table uk-table-divider">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table Data</td>
+                    <td>Table Data</td>
+                    <td>    <button class="uk-button uk-button-primary">Update</button>
+                        <button class="uk-button uk-button-danger">Delete</button>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    
+    
+</div>

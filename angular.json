@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "invfiver"
+    }
+  },
+  "defaultProject": "invfiver",
+  "cli": {
+    "analytics": false
+  }
 }
